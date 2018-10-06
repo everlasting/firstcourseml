@@ -16,7 +16,7 @@ w0 <- array(seq(from=0, to=20, by=1))
 w1 <- array(seq(from=0, to=8, by=0.4))
 
 for (i in 2:length(w0))
-  curve(w1[i]*x+w0[i], from=-5, to=5, n=100, add=TRUE)
+	  curve(w1[i]*x+w0[i], from=-5, to=5, n=100, add=TRUE)
   
 curve(0.4*x+1, from=-5, to=5, add=TRUE)
 curve(0.8*x+2, from=-5, to=5, add=TRUE)
